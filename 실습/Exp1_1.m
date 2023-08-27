@@ -1,0 +1,11 @@
+t=0:0.001:1;
+f1=2;
+f2=4;
+y1=2*sin(2*pi*f1*t);
+y2=2*sin(2*pi*f2*t);
+plot(t,y1,'r'); hold on;
+plot(t,y2,'b'); hold on;
+title('실습 1-1 : 2Hz, 4Hz Sine파 출력');
+xlabel('Time(sec)');
+ylabel('Amplitude');
+axis([0 1 -2.2 2.2]);
